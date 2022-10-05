@@ -1,0 +1,50 @@
+body{
+    color:#333333;
+    font-family:Arial;
+    max-width:650px;
+    margin:0 auto;
+    padding:0 16px;
+
+}
+
+footer{
+    color:grey;
+    border-top:1px solid;
+    
+    padding: 16px 0;
+    height: auto;
+    margin-top: 200px;
+}
+
+h1{
+    font-size:64px;
+    margin-bottom:16px;
+}
+
+header a{
+    margin-right:16px;
+    color:grey;
+    text-decoration:none;
+}
+
+form{
+    margin-top:100px
+}
+
+input{
+    border:1px solid grey;
+    padding:8px;
+}
+
+button{
+    cursor:pointer;
+    color:white;
+    border:1px solid grey;
+    padding: 8px;
+    background:grey;
+}
+
+#p1{
+    font-weight: bold;
+    margin-top:40px;
+}
