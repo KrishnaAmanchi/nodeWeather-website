@@ -10,7 +10,7 @@ weatherForecast.addEventListener('submit',(e)=>{
     e.preventDefault();
     const location=search.value;
     console.log(location);
-    fetch("http://localhost:3000/weather?address="+location).then((response)=>{
+    fetch("/weather?address="+location).then((response)=>{
     if(response.error){
         mes1.innerHTML=response.error;
         mes2.innerHTML=null;
