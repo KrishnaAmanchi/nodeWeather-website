@@ -38,6 +38,7 @@ app.get("/weather",(req,res)=>{
                 })
             }
             else{
+               
                 forecast(longitude,latitude,(error,re)=>{
                     res.send({
                         weather_update:re,
